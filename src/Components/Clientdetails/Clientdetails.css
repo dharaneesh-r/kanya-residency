@@ -1,0 +1,135 @@
+/* General Styles */
+.client-details-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.client-details-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+}
+
+/* Header Styles */
+.client-box h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+    text-align: center;
+}
+
+.client-box .back-icon {
+    cursor: pointer;
+    color: #007bff;
+    font-size: 30px;
+    transition: color 0.3s ease;
+    margin-right: 20px;
+}
+
+.client-box .back-icon:hover {
+    color: #0056b3;
+}
+
+/* Data Table Container */
+.client-details-table {
+    margin-top: 40px;
+}
+
+/* Data Table Custom Styles */
+.react-data-table-component {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.react-data-table-component .rdt_TableRow:hover {
+    background-color: #f5f5f5;
+}
+
+.react-data-table-component .rdt_TableHead {
+    background-color: #3C4A72;
+    color: white;
+    font-weight: bold;
+}
+
+.react-data-table-component .rdt_TableHeadCell {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.react-data-table-component .rdt_TableCell {
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button Styles for Edit and Delete */
+.edit-btn {
+    border: 2px solid rgb(0, 153, 255);
+    padding: 5px;
+    background-color: transparent;
+    color: #0099FF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #f1f1f1;
+}
+
+.delete-btn {
+    border: 2px solid red;
+    padding: 5px;
+    background-color: transparent;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #f1f1f1;
+}
+
+/* Pagination Styles */
+.rdt_Pagination {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: #fafafa;
+}
+
+.rdt_Pagination button {
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .client-details-container {
+        padding: 20px;
+    }
+
+    .client-box h3 {
+        font-size: 26px;
+    }
+
+    .react-data-table-component {
+        font-size: 14px;
+    }
+
+    .react-data-table-component .rdt_TableHeadCell,
+    .react-data-table-component .rdt_TableCell {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,199 @@
+.A-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.A-Container h2 {
+    margin-top: 40px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+
+.select-container1 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+
+.main-container {
+    background-color: #415A77;
+    box-shadow: 1px 2px 10px 5px black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.b-container {
+    border: 1px solid black;
+    width: 60%;
+    background-color: #E0E1DD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border : none;
+    box-shadow: 1px 2px 10px 5px black;
+
+}
+
+.A-Container1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.A-Container1 h2 {
+    margin-top: 40px;
+}
+
+.c-container {
+    display: flex;
+    justify-content: center;
+}
+
+.new1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:  #E0E1DD;
+    box-shadow:1px 2px 10px 5px black;
+}
+
+.new1 div form {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new1 div form label,
+.new1 div form p,
+.new1 div form button {
+    margin-top: 20px;
+}
+
+.new1 div form input,
+.new1 div form select {
+    height: 40px;
+
+    width: 500px;
+}
+
+.new1 div form p input {
+    width: 425px;
+}
+
+.new1 div form label {
+    display: flex;
+    justify-content: left;
+}
+
+.new1 div form button {
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(0, 153, 255);
+}
+
+.box2 {
+    border-radius: 10px;
+    background-color:#dbdbdb;
+    width: 700px;
+}
+
+@media (max-width: 768px) {
+    .new1 {
+        width: 90%;
+    }
+
+    .new1 div form {
+        width: 90%;
+    }
+
+    .new1 div form button {
+        width: 40%;
+        margin-left: 35%;
+    }
+
+    .new1 div form input,
+    .new1 div form select {
+        height: 40px;
+
+        width: 325px;
+    }
+
+    .new1 div form p input {
+        width: 200px;
+    }
+    .box2{
+        width: 350px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .select-container {
+        padding: 5px 10px;
+        width: 90%;
+    }
+
+    .select-container1 {
+        padding: 5px 10px;
+        width: 75%;
+    }
+
+    .b-container {
+        width: 90%;
+    }
+
+}
+
+
+.body {
+    background-color: #A7BEAE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.conttt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.forrmm {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0px 5px 10px black;
+}

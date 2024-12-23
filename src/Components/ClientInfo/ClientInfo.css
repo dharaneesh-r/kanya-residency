@@ -1,0 +1,60 @@
+.new {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.new div form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.inputdata{
+    margin-top: -30px;
+}
+
+.new div form label,
+.new div form p,
+.new div form button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.new div form input,
+.new div form select {
+    height: 40px;
+}
+
+.new div form label{
+    display: flex;
+    justify-content: left;
+}
+
+.new div form button {
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(0, 153, 255);
+}
+.errormsg{
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .new div form {
+        width: 100%;
+    }
+    .new div form button{
+        width: 40%;
+        margin-left: 30%;
+    }
+    .inputdata{
+        width: 90%;
+    }
+}

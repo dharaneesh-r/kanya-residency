@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.mobile-container {
+  background-color: #415A77;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
+.formContent {
+  width: 100%;
+  max-width: 800px; 
+  padding: 20px;
+  background-color: white;
+}
+
+.formm {
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 1px 2px 10px 5px black;
+  padding: 30px;
+}
+
+.form-section {
+  margin-bottom: 20px; 
+}
+
+.date{
+  display: flex;
+  justify-content: space-between;
+}
+.date div input{
+  padding: 10px 80px ;
+}
+.form-section label {
+  font-weight: bold;
+  display: block;
+  text-align: left; 
+  margin-bottom: 5px; 
+}
+
+.form-section input,
+.payment-mode select,
+.select {
+  width: 100%;
+  padding: 10px; 
+}
+
+.error1 {
+  color: red;
+  font-size: 0.875rem;
+}
+
+.advancepaid-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.save-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.save-button button {
+  padding: 10px 20px;
+  background-color: rgb(19, 142, 231);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.payment-mode{
+  margin-top: 20px;
+}
+
+.balance
+{
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .formContent {
+      padding: 10px; 
+  }
+
+  .advancepaid-container {
+      flex-direction: column; 
+      align-items: flex-start; 
+  }
+
+  .advancepaid-container label {
+      margin-bottom: 5px; 
+  }
+
+  .date div input{
+    padding: 10px 10px;
+  }
+}

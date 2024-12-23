@@ -1,0 +1,68 @@
+.react-datepicker__day--fully-booked {
+    background-color: rgb(34, 82, 55) !important;
+    /* Dark Green */
+    color: white !important;
+}
+
+.react-datepicker__day--partially-booked {
+    background-color: rgb(144, 238, 144) !important;
+    /* Light Green */
+    color: black;
+}
+
+.hover-info {
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+.view-calender {
+    height: 90%;
+    place-content: center;
+}
+
+.calender-button {
+    padding: 10px;
+    margin: 40px;
+}
+
+.custom-calendar {
+    width: auto !important;
+    height: auto;
+    margin: 20px;
+}
+
+.react-datepicker__day {
+    margin: 10px;
+}
+.input-form {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    padding-top : 20px;
+    justify-content: center;
+    gap: 20px;
+}
+.react-datepicker__header{
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px){
+    .custom-calendar{
+        width : auto;
+        height: auto;
+    }.react-datepicker__day {
+        margin: 5px
+    }
+    .input-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:  20px;
+    }
+}
+
+
+  
